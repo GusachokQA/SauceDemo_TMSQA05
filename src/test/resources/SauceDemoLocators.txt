@@ -1,0 +1,40 @@
+SwagLabs Logo
+1. By.className("login_logo")
+2. By.tagName("div")
+3. By.cssSelector(".login_logo",".main-body .login_logo")
+4. By.xpath("//*[@class="login_logo"]")
+
+Username
+1. By.id("user-name")
+2. By.className("form_input")
+3. By.tagName("input")
+4. By.cssSelector(".form_input#user-name", "[placeholder="Username"]")
+5. By.xpath("//*[@placeholder="Username"]")
+
+Password
+1. By.id("password")
+2. By.className("form_input")
+3. By.tagName("input")
+4. By.cssSelector("#password", "[placeholder="Password"]")
+5. By.xpath("//input[@data-test="password"]")
+
+Button Login
+1. By.className("btn_action")
+2. By.tagName("input")
+3. By.cssSelector(".btn_action", ".login-box .btn_action")
+4. By.xpath("//form/input[@class="btn_action"]")
+
+Image
+1. By.className("bot_column")
+2. By.tagName("div")
+3. By.cssSelector(".bot_column", "[class=bot_column]")
+4. By.xpath("//div[@class="login_wrapper-inner"]/descendant::div[@class="bot_column"]")
+
+Accepted usernames
+1. By.className("btn_action")
+2. By.cssSelector(".login_credentials > h4")
+3. By.xpath("//*[@class="login_credentials"]/child::h4")
+
+Password for all users
+1. By.cssSelector(".login_password > h4")
+2. By.xpath("//*[text()='Password for all users:']")
