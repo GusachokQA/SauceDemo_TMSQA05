@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
@@ -32,5 +33,7 @@ public class SmokeTest extends BaseTest {
             System.out.println(element.findElement(By.className("inventory_item_name")).getText()+ " price: " + element.findElement(By.className("inventory_item_price")).getText());
         }
         System.out.println("amount of elements = " + elements.size());
+
+
     }
 }

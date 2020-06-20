@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gusachok AQA5</title>
+</head>
+<style>
+    table, th, td {
+  border: 2px solid black;
+}
+.button {
+  border: none;
+  color: black;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #b01326;} /* Red */
+.button2 {background-color: #fae711;} /* Yellow */
+</style>
+<body>
+    <h3>Table</h3>
+    <table style="width:50%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ivan</td>
+            <td>Ivanov</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Petr</td>
+            <td>Petrov</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Zinon</td>
+            <td>Zinonov</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+    <h3>Input</h3>
+        <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Checkboxes</h3>
+    <p>How old's Zinon?</p>
+    <form action="/action_page.php">
+        <input type="checkbox" id="age1" name="age1" value="10">
+        <label for="age1"> 10 </label><br>
+        <input type="checkbox" id="age2" name="age2" value="20">
+        <label for="age2"> 20</label><br>
+        <input type="checkbox" id="age3" name="age3" value="88">
+        <label for="age3"> 88</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>Select</h3>
+    <form action="/action_page.php">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <optgroup label="Swedish Cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+            </optgroup>
+            <optgroup label="German Cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <h3>The button element</h3>
+    <button class="button button1">Red</button>
+    <button class="button button2">Yellow</button>
+
+    <h3>The img element</h3>
+    <img src="https://www.imgonline.com.ua/examples/bee-on-daisy.jpg" alt="Picture" width="200" height="200">
+
+    <h3>paragraphs</h3>
+    <p style="text-transform: uppercase">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum.</p>
+
+    <p style="color: navy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.</p>
+
+    <h3>The a element</h3>
+
+    <a href="https://teachmeskills.by/">Visit teachmeskills</a>
+
+
+</body>
+</html>
